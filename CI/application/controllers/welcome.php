@@ -19,7 +19,16 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		
+		
+		/*
+		$data['meta'] = array(
+		        array('name' => 'description', 'content' => 'Cornerstone Kitchen and Bath is...'),
+		        array('name' => 'keywords', 'content' => 'kitchen, remodeling, repair, cabinets, bath, bathrooms, bathroom, countertop, ...'),
+		        array('name' => 'content' => 'charset=utf-8')
+		    );
+		*/
+		$this->load->view('welcome_view');
 	}
 }
 
