@@ -8,11 +8,47 @@
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.1/build/cssreset/cssreset-min.css">
 	<link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:700'>
 	<link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Coustard'>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css"  media="screen" />
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 	
 	<script>
 		document.createElement('header');
 		document.createElement('nav');
 		document.createElement('footer');
+		
+		$(document).ready(function() {
+
+			/* This is basic - uses default settings */
+
+			$("a#single_image").fancybox({
+				'transitionIn'	:	'elastic',
+				'transitionOut'	:	'elastic',
+				'hideOnContentClick': true,
+				'speedIn'		:	600, 
+				'speedOut'		:	200, 
+				'overlayShow'	:	true,
+			});
+
+			/* Using custom settings */
+
+			$("a#inline").fancybox({
+				'hideOnContentClick': true
+			});
+
+			/* Apply fancybox to multiple items */
+
+			$("a.group").fancybox({
+				'transitionIn'	:	'elastic',
+				'transitionOut'	:	'elastic',
+				'speedIn'		:	600, 
+				'speedOut'		:	200, 
+				'overlayShow'	:	false,
+			});
+
+		});
+		
 	</script>
 </head>
 <body>
@@ -44,8 +80,7 @@
 			<p>Cornerstone is a Company name used by the Ellis Family for over thirty years. Most of those years were spent in the Home building Industry. In 2004 we turned our attention to the cabinet Industry. Cornerstone Kitchens and Baths is our latest creation were we have developed a unique Showroom in Kennesaw Ga. to sell Quality Cabinets to contractors and the public. 
 			</p>
 			
-			<img src="images/charleston_black1.jpg" class="thumbnail">
-			<img src="images/charleston_black1_large.jpg" class="pic">
+			<a id="single_image" href="images/charleston_black1_large.jpg"><img src="images/charleston_black1.jpg" class="thumbnail" alt='Some information on this style of cabinet'></a>
 			<img src="images/newbury.jpg" class="thumbnail">
 
 			<h2>What We Do</h2>
