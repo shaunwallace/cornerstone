@@ -81,7 +81,7 @@
 			</p>
 			
 			<a id="single_image" href="images/charleston_black1_large.jpg"><img src="images/charleston_black1.jpg" class="thumbnail" alt='Some information on this style of cabinet'></a>
-			<img src="images/newbury.jpg" class="thumbnail">
+			<a id="single_image" href="images/newbury_large.jpg"><img src="images/newbury.jpg" class="thumbnail"></a>
 
 			<h2>What We Do</h2>
 			<p>Our business was created based on a product line that is a Solid wood Cabinet with features not usually seen as standard. We are also able to accommodate any special needs our customers may have. We can call on several manufacturers and even create custom finishes on many of our products. Visit our showroom and let us save you money on your new Kitchen.</p>
