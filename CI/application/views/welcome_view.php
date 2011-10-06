@@ -45,6 +45,7 @@
 			</p>
 			
 			<img src="images/charleston_black1.jpg" class="thumbnail">
+			<img src="images/charleston_black1_large.jpg" class="pic">
 			<img src="images/newbury.jpg" class="thumbnail">
 
 			<h2>What We Do</h2>
@@ -57,9 +58,10 @@
 					<input type="text" name="name" value="" id="name" placeholder="Name" required/> 
 					<input type="email" name="email" value="" placeholder="Email" id="email" />
 					<input type="email" name="conf_email" value="" placeholder="Confirm Email" id="conf_email" />
-					<input type="tel" name="tel" value="" placeholder="Phone" id="phone" />	
+					<input type="tel" name="tel" value="" placeholder="Phone" id="tel" />	
+					
 				</fieldset><!--end user-details-->
-
+				<textarea form="contact_form" placeholder="Add Your Comments"></textarea>
 				<input type="button" value="Send" name="button" id="add" class="submit" />
 			</form>	
 		</aside>

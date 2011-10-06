@@ -145,6 +145,7 @@ nav ul li:last-child a {
 	-webkit-box-shadow: 0px 1px 8px 0.9px rgb(168,168,168);
 	box-shadow: 0px 1px 8px 0.9px rgb(168,168,168);
 }
+
 /******************Form*****************************/
 
 aside {
@@ -188,9 +189,10 @@ fieldset {
 	-webkit-transition: border 0.3s linear;
 }
 
-textarea {		
-	width: 390px; 
-	height: 175px; 		 		
+textarea {	
+	padding: 8px !important;	
+	width: 200px; 
+	height: 75px; 		 		
 }
 
 #form_details input:hover, textarea:hover { 
@@ -234,6 +236,7 @@ input.submit:hover {
 /******************Footer*****************************/
 footer {
 	width: 100%;
+	height: 200px;
 	clear: both;
 	margin: 0 auto;
 	text-align: center;
