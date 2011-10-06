@@ -32,12 +32,12 @@ aside {
 header a{
 	color: #3c3c3c;
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;	
+	font-family: 'Smythe', cursive;
+	font-size: 36px;	
 }
 
 header {
-	padding: 20px 0;
+	padding: 20px 51px 0px 79px;
 	float: left;
 	margin: 0 auto;
 }
@@ -254,6 +254,11 @@ footer {
 	font-size: 12px !important;
 	padding: 0px !important;
 }
+
+#footer_nav ul li a:hover {
+	color: #000;
+}
+
 
 #footer_wrapper {
 	
