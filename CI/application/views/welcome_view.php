@@ -6,7 +6,8 @@
 	<title>Cornerstone Kitchen and Bath | Cabinets in Atlanta</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.1/build/cssreset/cssreset-min.css">
-	<link rel="stylesheet" type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:700'>
+	<link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:700'>
+	<link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Coustard'>
 	
 	<script>
 		document.createElement('header');
@@ -22,15 +23,18 @@
 				<h1><?php echo anchor('welcome/', 'Cornerstone Kitchen and Bath'); ?></h1>
 			</hgroup>
 	</header><!-- end header -->
-	<nav>
-			<ul>
-				<li><?php echo anchor('welcome/', 'Home', 'title="home"'); ?></li>
-				<li><?php echo anchor('about/', 'About Us', 'title="about us"'); ?></li>
-				<li><?php echo anchor('products/', 'Products', 'title="products"'); ?></li>
-				<li><?php echo anchor('gallery/', 'Gallery', 'title="gallery"'); ?></li>
-				<li><?php echo anchor('contact/', 'Contact', 'title="contact"'); ?></li>
-			</ul>
-	</nav><!-- end nav -->
+			<nav>
+					<ul>
+						<li><?php echo anchor('welcome/', 'Home', 'title="home"'); ?></li>
+						<li><?php echo anchor('about/', 'About Us', 'title="about us"'); ?></li>
+						<li><?php echo anchor('products/', 'Products', 'title="products"'); ?></li>
+						<li><?php echo anchor('gallery/', 'Gallery', 'title="gallery"'); ?></li>
+						<li><?php echo anchor('contact/', 'Contact', 'title="contact"'); ?></li>
+					</ul>
+					<p id="phone">770.422.5077</p>
+					<p id="get_in_touch">Get in Touch</p>
+
+			</nav><!-- end nav -->
 	<div class="banner">
 		<?php echo img('images/banner_image_1.jpg'); ?>
 	</div><!-- end banner -->
@@ -63,7 +67,9 @@
 	<footer>
 		<nav>
 		</nav><!-- end nav -->
-		<p>Page rendered in <strong>{elapsed_time}</strong> seconds</p>
+		<p id="copyright">&copy;2011 Cornerstone Kitchens and Baths. All rights reserved.</p>
+		<p id="address">840 Ernest W. Barrett Pkwy, Ste 584 Kennesaw, GA 30144 :: Tel 770-422-5077</p>
+		<!--<p>Page rendered in <strong>{elapsed_time}</strong> seconds</p>-->
 	</footer><!-- end footer -->
 </div><!--end wrapper -->
 

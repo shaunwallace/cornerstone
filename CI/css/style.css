@@ -29,32 +29,33 @@ header a{
 	color: #3c3c3c;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 36px;	
+	font-size: 30px;	
 }
 
 header {
 	padding: 20px 0;
+	float: left;
 }
 /*******************Main Navigation****************************/
 nav {
-	width: 800px;
+	/*width: 800px;*/
 	font-family: 'Open Sans', sans-serif;
 	font-size: 36px;
 	margin: 0 auto;
 }
 
 nav ul li a {
-	font-size: 16px;
+	font-size: 14px;
 	border-right: 1px dotted #3c3c3c;
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	width: 145px;
+	width: 90px;
 }
 
 nav ul li a:link, 
 a:active {
-	color: #3c3c3c;
+	color: #787878;
 }
 
 nav ul li a:visited {
@@ -62,8 +63,12 @@ nav ul li a:visited {
 }
 
 nav {
-	padding: 58px 0 30px;
+	padding: 25px 0 30px;
 	float: left;
+}
+
+nav ul {
+	padding-bottom: 50px;
 }
 
 nav ul li a:hover {
@@ -76,6 +81,24 @@ nav ul li {
 
 nav ul li:last-child a {
 	border: medium none;
+}
+
+#get_in_touch, #phone {
+	display: inline;
+	float: right;
+	font-family: 'Coustard', serif;
+}
+
+#phone {
+	color: #787878;
+	font-size: 22px;
+	padding: 0 20px 0 0;
+}
+
+#get_in_touch {
+	color: #0A6DA8;
+	font-size: 12px;
+	padding: 4px 9px 0 0;
 }
 /******************Banner Image*****************************/
 .banner {
@@ -94,27 +117,27 @@ nav ul li:last-child a {
 /******************Main Content*****************************/
 #content {
 	width: 815px;
-	margin: 0 auto 20px;
+	margin: 0 auto;
 }
 #content p {
-	padding: 10px 0 10px;
+	padding: 10px 14px 0 8px
 }
 
 #content h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Coustard', serif;
 	font-size: 20px;
-	padding: 0 0 10px;
+	padding: 0 0 10px 8px;
 }
 
 #content_text_wrapper {
 	width: 500px;
-	margin: 0 93px 0 0;
+	margin: 0 93px 50px 0;
 	float: left;
 }
 
 .thumbnail {
 	display: inline;
-	margin: 12px 10px 15px 25px;
+	margin: 27px 10px 27px 25px;
 	border: 2px solid white;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -127,6 +150,9 @@ nav ul li:last-child a {
 aside {
 	width: 220px;
 	float: left;
+}
+aside h2 {
+	text-align: center !important;
 }
 label {	
 	font-size: 20px;
@@ -178,6 +204,7 @@ input.submit {
 	padding: 4px;
 	width: 130px; 
 	color: ##E0E0E0s; 
+	font-family: 'Coustard', serif;
 	text-transform: uppercase; 
 	float: left;
 	margin: 5px 0 0 0px;
@@ -206,6 +233,36 @@ input.submit:hover {
 
 /******************Footer*****************************/
 footer {
+	width: 100%;
 	clear: both;
+	margin: 0 auto;
 	text-align: center;
+}
+
+#copyright {
+	padding: 0 0 4px;
+}
+
+#address { 
+
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
 }
