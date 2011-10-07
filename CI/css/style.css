@@ -4,6 +4,7 @@
 }
  
 #wrapper {
+	border-top: 4px solid #0A6DA8;
   	min-height: 100%;
   	position: relative;
 }
@@ -158,7 +159,8 @@ aside {
 	float: left;
 }
 aside h2 {
-	text-align: center !important;
+	padding: 0 0 5px !important;
+	/*text-align: center !important;*/
 }
 label {	
 	font-size: 20px;
@@ -176,7 +178,7 @@ fieldset {
 
 #form_details  input, textarea { 		
 	padding: 8px; 
-	margin: 4px 0 10px 0; 
+	margin: 2px 0 10px 0; 
 	background: #fff; 
 	width: 200px; 
 	font-size: 12px; 
@@ -259,11 +261,6 @@ footer {
 	color: #000;
 }
 
-
-#footer_wrapper {
-	
-}
-
 #footer_nav ul {
 	padding: 0px !important;
 }
@@ -280,9 +277,6 @@ footer {
 	padding: 0 0 4px;
 }
 
-#address { 
-
-}
 .clearfix:after {
 	content: ".";
 	display: block;

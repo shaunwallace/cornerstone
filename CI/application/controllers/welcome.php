@@ -21,14 +21,20 @@ class Welcome extends CI_Controller {
 	{
 		
 		
-		/*
+		
 		$data['meta'] = array(
 		        array('name' => 'description', 'content' => 'Cornerstone Kitchen and Bath is...'),
 		        array('name' => 'keywords', 'content' => 'kitchen, remodeling, repair, cabinets, bath, bathrooms, bathroom, countertop, ...'),
-		        array('name' => 'content' => 'charset=utf-8')
+				array('name' => 'Content-type', 'content' => 'text/html; charset=utf-8', 'type' => 'equiv')
 		    );
-		*/
-		$this->load->view('welcome_view');
+		
+		
+		$data['title'] = "Cornerstone Kitchen and Bath | Cabinets in Atlanta";
+		$this->load->view('header', $data);
+		$this->load->view('menu');
+		$this->load->view('content_home');
+		$this->load->view('footer');
+		//$this->load->view('welcome_view', $data);
 	}
 }
 
