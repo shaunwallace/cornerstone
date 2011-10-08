@@ -30,6 +30,7 @@ class Welcome extends CI_Controller {
 		
 		
 		$data['title'] = "Cornerstone Kitchen and Bath | Cabinets in Atlanta";
+		
 		$this->load->view('header', $data);
 		$this->load->view('menu');
 		$this->load->view('content_home');

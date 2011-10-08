@@ -32,10 +32,10 @@
 			$("a#single_image").fancybox({
 				'transitionIn'	:	'elastic',
 				'transitionOut'	:	'elastic',
-				'hideOnContentClick': true,
 				'speedIn'		:	600, 
 				'speedOut'		:	200, 
 				'overlayShow'	:	true,
+				'hideOnContentClick': true
 			});
 		});
 	</script>
