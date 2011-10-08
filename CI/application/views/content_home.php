@@ -15,7 +15,7 @@
 	</div><!-- end content_text_wrapper -->
 	<aside>
 		<h2>Contact Us</h2>
-		<form id="contact_form" method="post" action="<?php echo base_url(); ?>form/save">
+		<form id="contact_form" method="post" action="<?php echo site_url(); ?>/form/save">
 			<fieldset id="form_details">	
 				<input type="text" name="name" value="" id="name" placeholder="Name" required/> 
 				<input type="email" name="email" value="" placeholder="Email" id="email" required/>

@@ -1,6 +1,6 @@
 <?php
 
-public class Form extends CI_Controller {
+class Form extends CI_Controller {
 	
 	public function index() {
 		
@@ -13,8 +13,11 @@ public class Form extends CI_Controller {
 		   	'name' 		=> 	$this->input->post('name'),
 		   	'email' 	=> 	$this->input->post('email'),
 		   	'phone' 	=> 	$this->input->post('phone'), 
-			'message'	=>	$this->input->post('message')
+			'message'	=>	$this->input->post('comments')
 		);
+		
+		//for testing
+		//$this->load->view('test', $data);
 		
 		//pass the form values to the model to validate and store
 		$this->form_model->insert($data);
