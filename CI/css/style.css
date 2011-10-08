@@ -144,6 +144,16 @@ nav ul li:last-child a {
 	padding: 10px 14px 0 8px
 }
 
+#content h1 {
+	color: #fff;
+	font-family: 'Smythe', cursive;
+	font-size: 27px !important;
+	padding: 0 0 14px 8px;
+	top: 316px;
+	left: 312px;
+	position: absolute;
+}
+
 #content h2 {
 	font-family: 'Coustard', serif;
 	font-size: 20px;
@@ -155,6 +165,8 @@ nav ul li:last-child a {
 	margin: 0 93px 50px 0;
 	float: left;
 }
+
+
 
 .thumbnail {
 	display: inline;
