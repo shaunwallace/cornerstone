@@ -14,7 +14,7 @@
 		<p>Our business was created based on a product line that is a Solid wood Cabinet with features not usually seen as standard. We are also able to accommodate any special needs our customers may have. We can call on several manufacturers and even create custom finishes on many of our products. Visit our showroom and let us save you money on your new Kitchen.</p>
 	</div><!-- end content_text_wrapper -->
 	<aside>
-		<h2>Contact Us</h2>
+		<h2>Want A Quote?</h2>
 		<form id="contact_form" method="post" action="<?php echo site_url(); ?>/form/save">
 			<fieldset id="form_details">	
 				<input type="text" name="name" value="" id="name" placeholder="Name" required/> 
