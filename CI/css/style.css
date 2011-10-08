@@ -130,7 +130,7 @@ nav ul li:last-child a {
 	-moz-box-shadow: 0px 1px 8px 0.9px rgb(168,168,168);
 	-webkit-box-shadow: 0px 1px 8px 0.9px rgb(168,168,168);
 	box-shadow: 0px 1px 8px 0.9px rgb(168,168,168);
-	margin: 0px 0 40px;	
+	margin: 0px 0 28px;	
 }
 
 /******************Main Content*****************************/
@@ -147,7 +147,7 @@ nav ul li:last-child a {
 #content h2 {
 	font-family: 'Coustard', serif;
 	font-size: 20px;
-	padding: 0 0 10px 8px;
+	padding: 0 0 4px 8px;
 }
 
 #content_text_wrapper {
