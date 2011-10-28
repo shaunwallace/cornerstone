@@ -1,6 +1,6 @@
 <div id="content">
 	<aside class="contact_form">
-		<h2>Want more Information</h2>
+		<h2>For more Info</h2>
 		<form id="contact_form" method="post" action="<?php echo site_url(); ?>/form/save">
 			<fieldset id="form_details">	
 				<input type="text" name="name" value="" id="name" placeholder="Name" required/> 
@@ -24,4 +24,7 @@
 	-->
 	
 </div><!-- end content -->
+<aside>
+<h2>Visit our Showroom</h2>
  <div id="map_canvas"></div>
+ </aside>
