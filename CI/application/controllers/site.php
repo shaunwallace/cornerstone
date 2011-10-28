@@ -17,13 +17,14 @@ class Site extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	
+
 	public function index()
 	{
 		
 		$data['title'] = "Cornerstone Kitchen and Bath | Cabinets in Atlanta";
 		$data['main_content'] = "home";
 		$data['stylesheets'] = array('css/style.css', 'css/jquery.fancybox-1.3.4.css');
+		$data['js'] = array('js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js', 'js/fancybox_script.js');
 		
 		$this->load->view('includes/template', $data);
 		
@@ -41,6 +42,7 @@ class Site extends CI_Controller {
 		$data['title'] = "Cornerstone Kitchen and Bath | Contact Us";
 		$data['main_content'] = "contact";
 		$data['stylesheets'] = array('css/contact_style.css', 'css/style.css');
+		$data['js'] = array();
 		
 		$this->load->view('includes/template', $data);
 		

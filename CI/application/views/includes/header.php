@@ -12,18 +12,27 @@
 	<link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Coustard'>
 	<link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Smythe'>
 	
-	<?php if($stylesheets != null ){
+	<?php 
+	
+	if($stylesheets != null ){
 	
 		foreach($stylesheets as $styles) {
 			echo '<link rel="stylesheet" type="text/css" href="' . base_url($styles) . '"  media="screen">';
 		}
 	}
+
+	
 	?>
-	
-	
+	<!-- IMPORTANT you have to load jquery first or the fancybox plugin will not work -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-	<script type="text/javascript" src="<?php echo base_url('js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js'); ?>"></script>
+	<?php
+		if($js != null ){
 	
+		foreach($js as $scripts) {
+			  echo '<script type="text/javascript" src="' . base_url($scripts) . '"></script>';
+		}
+	}
+	?>
 	<script>
 		document.createElement('header');
 		document.createElement('nav');
@@ -31,20 +40,7 @@
 	</script>
 	
 	<script>
-			$(document).ready(function() {
 
-			/* This is basic - uses default settings */
-
-			$("a#single_image").fancybox({
-				'transitionIn'	:	'elastic',
-				'transitionOut'	:	'elastic',
-				'speedIn'		:	600, 
-				'speedOut'		:	200, 
-				'overlayShow'	:	true,
-				'hideOnContentClick': true
-			});
-		});
-		
 		(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) {return;}
@@ -56,3 +52,4 @@
 	</script>
 </head>
 <body>
+<?php //if($js != null ){echo '<script type="text/javascript" src="' . base_url($scripts) . '"></script>';}?>
