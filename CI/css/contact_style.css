@@ -9,9 +9,9 @@
 
 #map_canvas { 	
 	display: block;
-	margin: 0px 0px 50px 0px;
+	margin: 34px 0px 50px 0px;
 	width: 535px;
-	height: 400px;
+	height: 315px;
 	float: left;
 	border: 1px #ddd solid;
 	border-radius: 3px;

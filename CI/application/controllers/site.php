@@ -38,11 +38,6 @@ class Site extends CI_Controller {
 		
 		$this->load->view('includes/template', $data);
 	}
-	
-	public function maps()
-	{
-		$this->load->view('maps');
-	}
 }
 
 /* End of file welcome.php */
