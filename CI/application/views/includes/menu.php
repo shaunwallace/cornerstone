@@ -5,7 +5,7 @@
 				<h1><?php echo anchor('site/', 'Cornerstone Kitchen and Bath'); ?></h1>
 			</hgroup>
 		</header><!-- end header -->
-				<nav>
+				<nav id="header_nav">
 					<ul>
 						<li><?php echo anchor('site/', 'Home', 'title="home"'); ?></li>
 						<li><?php echo anchor('site/about/', 'About Us', 'title="about us"'); ?></li>

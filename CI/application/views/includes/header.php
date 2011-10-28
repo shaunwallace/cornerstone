@@ -1,10 +1,10 @@
 <?php echo doctype( 'html5' ); ?>
 
-<html lang=en>
+<html lang="en">
 <head>
 	
 	<?php echo meta($meta); ?>
-
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 	<title><?php echo $title ;?></title>
 	
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.1/build/cssreset/cssreset-min.css">
@@ -25,6 +25,7 @@
 	?>
 	<!-- IMPORTANT you have to load jquery first or the fancybox plugin will not work -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
 	<?php
 		if($js != null ){
 	
@@ -33,6 +34,7 @@
 		}
 	}
 	?>
+
 	<script>
 		document.createElement('header');
 		document.createElement('nav');
@@ -50,6 +52,6 @@
 		}(document, 'script', 'facebook-jssdk'));
 		
 	</script>
+	    
 </head>
-<body>
-<?php //if($js != null ){echo '<script type="text/javascript" src="' . base_url($scripts) . '"></script>';}?>
+<body onload="initialize()">

@@ -13,4 +13,15 @@
 			<input type="submit" value="Send" name="button" id="add" class="submit" type="submit"/>
 		</form>	
 	</aside>
+	<!--
+	<aside class="contact_form">
+		<h2>Office Address</h2>
+		<p>Conerstone Kitchen and Bath<p>
+		<p>840 Ernest W. Barrett Pkwy</p>
+		<p>Ste 584 Kennesaw, GA 30144</p>
+		:: Tel 770-422-5077
+	</aside>
+	-->
+	
 </div><!-- end content -->
+ <div id="map_canvas"></div>

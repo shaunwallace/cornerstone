@@ -27,14 +27,6 @@ class Site extends CI_Controller {
 		$data['js'] = array('js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js', 'js/fancybox_script.js');
 		
 		$this->load->view('includes/template', $data);
-		
-		//load the relevent blocks of the page the will be put in order of the calls below
-		/*
-		$this->load->view('includes/header', $data);
-		$this->load->view('includes/menu');
-		$this->load->view('content_home');
-		$this->load->view('includes/footer');
-		*/
 	}
 	
 	public function contact()
@@ -42,10 +34,14 @@ class Site extends CI_Controller {
 		$data['title'] = "Cornerstone Kitchen and Bath | Contact Us";
 		$data['main_content'] = "contact";
 		$data['stylesheets'] = array('css/contact_style.css', 'css/style.css');
-		$data['js'] = array();
+		$data['js'] = array('js/maps.js');
 		
 		$this->load->view('includes/template', $data);
-		
+	}
+	
+	public function maps()
+	{
+		$this->load->view('maps');
 	}
 }
 
