@@ -8,9 +8,9 @@
 				<nav>
 					<ul>
 						<li><?php echo anchor('site/', 'Home', 'title="home"'); ?></li>
-						<li><?php echo anchor('about/', 'About Us', 'title="about us"'); ?></li>
-						<li><?php echo anchor('products/', 'Products', 'title="products"'); ?></li>
-						<li><?php echo anchor('gallery/', 'Gallery', 'title="gallery"'); ?></li>
+						<li><?php echo anchor('site/about/', 'About Us', 'title="about us"'); ?></li>
+						<li><?php echo anchor('site/products/', 'Products', 'title="products"'); ?></li>
+						<li><?php echo anchor('site/gallery/', 'Gallery', 'title="gallery"'); ?></li>
 						<li><?php echo anchor('site/contact/', 'Contact', 'title="contact"'); ?></li>
 					</ul>
 					<!--Facebook like button integration -->

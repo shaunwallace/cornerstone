@@ -10,11 +10,11 @@
 		    
 		$data['title'] = $title;
 		
-		if($stylesheet != null){
+		if($stylesheets != null){
 			//load specific stylesheets are are only used on particular pages
-			$data['stylesheet'] = $stylesheet;
+			$data['stylesheets'] = $stylesheets;
 		}else{
-			$data['stylesheet'] = null;
+			$data['stylesheets'] = null;
 		}
 	
 	//call the the various sections that make up the page 
