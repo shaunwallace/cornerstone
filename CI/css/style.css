@@ -77,7 +77,7 @@ nav {
 }
 
 nav ul {
-	padding-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 nav ul li a:hover {

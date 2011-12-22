@@ -1,0 +1,48 @@
+.read_more_links, .read_less_links {
+	color: #0A6DA8;
+	font-size: 12px;
+}
+
+.read_more_links, .read_less_links a:visited{
+	color: #0A6DA8;
+}
+
+h2 {
+	padding: 20px 0 0;
+}
+
+#charleston_more_text {
+	display: none;
+}
+
+.feature_list_heading {
+	padding: 15px 0 10px 10px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.feature_list {
+	list-style-type: circle;
+	float: left;
+	padding-left: 25px;
+	color: #505050;
+}
+
+.cabinet_med_thumb {
+	padding: 15px 20px 20px 9px;
+	float: left;
+}
+
+.cabinet_styles {
+	float: left;
+	padding-bottom: 30px;
+	width: 500px;
+}
+
+.cabinet_styles p {
+	/*text-align: justify;*/
+}
+
+#charleston {
+	margin-top: 50px
+}
