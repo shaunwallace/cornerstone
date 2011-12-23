@@ -1,4 +1,8 @@
+<div class="banner">
+	<?php echo img('images/banner_image_2.jpg'); ?>
+</div><!-- end banner -->
 <div id="content">
+<h1>We will beat any price...for any product.</h1>
 	<div id="charleston" class="cabinet_styles">
 		<h2>The Charleston</h2>
 		<p>The Charleston Cabinet Door style, like the town its name is inspired by, has endured the test of time. The timeless look carries with it both elegance and tradition. Like a fine piece of furniture, this cabinet <span class="read_more_links"><a href="#" >read more</a></span>
