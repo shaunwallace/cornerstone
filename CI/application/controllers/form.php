@@ -5,23 +5,24 @@ class Form extends CI_Controller {
 	public function index() {
 		
 	}
-	
-	public function save() {
-		
-		//get the post data
-		$data = array(
-		   	'name' 		=> 	$this->input->post('name'),
-		   	'email' 	=> 	$this->input->post('email'),
-		   	'phone' 	=> 	$this->input->post('phone'), 
-			'message'	=>	$this->input->post('comments')
-		);
-		
-		//for testing
-		//$this->load->view('test', $data);
-		
-		//pass the form values to the model to validate and store
-		$this->form_model->insert($data);
-		
-	}
+   
+    function save()                                   
+    {
+        $data['title'] = "Cornerstone Kitchen and Bath | Contact Us";
+        $data['main_content'] = "contact-landing-page";
+        $data['stylesheets'] = array('css/contact_style.css', 'css/style.css');
+        $data['js'] = array('js/maps.js');
+        
+        $this->load->model('Form_Model'); 
+        
+        $data['email'] = $this->input->post('email');  
+         
+        $data['emailsuccess'] = $this->Form_Model->send_email($data['email'] , 'hello'); 
+        
+        //pass the form values to the model to validate and store
+        //$this->form_model->insert($data);
+        
+        $this->load->view('includes/template', $data);
+    }
 }
 ?>
