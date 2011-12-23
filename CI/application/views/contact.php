@@ -1,4 +1,7 @@
+   
+
 <div id="content">
+ 
 	<aside class="contact_form">
 		<h2>For more Info</h2>
 		<form id="contact_form" method="post" action="<?php echo site_url(); ?>/form/save">

@@ -39,6 +39,15 @@ class Site extends CI_Controller {
 		$this->load->view('includes/template', $data);
 	}
 	
+    public function about() 
+    {
+        $data['title'] = "Cornerstone Kitchen and Bath | Products";
+        $data['main_content'] = "about";
+        $data['stylesheets'] = array('css/style.css');
+        $data['js'] = array('js/products.js');                                                   
+        $this->load->view('includes/template', $data);
+    }
+    
 	public function products()
 	{
 		$data['title'] = "Cornerstone Kitchen and Bath | Products";
