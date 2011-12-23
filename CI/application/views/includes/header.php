@@ -54,4 +54,3 @@
 	</script>
 	    
 </head>
-<body onload="initialize()">

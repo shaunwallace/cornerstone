@@ -1,4 +1,4 @@
-   
+<body onload="initialize()">   
 
 <div id="content">
  

@@ -1,3 +1,4 @@
+<body>
  <div class="banner">
     <?php echo img('images/banner_image_2.jpg'); ?>
 </div><!-- end banner -->

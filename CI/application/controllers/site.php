@@ -53,7 +53,7 @@ class Site extends CI_Controller {
 		$data['title'] = "Cornerstone Kitchen and Bath | Products";
 		$data['main_content'] = "products";
 		$data['stylesheets'] = array('css/products_style.css', 'css/style.css');
-		$data['js'] = array('js/products.js');
+		$data['js'] = null;
 		
 		$this->load->view('includes/template', $data);
 	}
