@@ -21,7 +21,7 @@ function initialize() {
 	);
 
 	var infowindow = new google.maps.InfoWindow( { 
-		content: 'Some info about Cornerstone',
+		content: '<small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=840+Ernest+W.+Barrett+Parkway,+Kennesaw,+GA+30144&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=42.581364,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=840+Ernest+W.+Barrett+Pkwy,+Kennesaw,+Georgia+30144&amp;ll=34.057211,-84.566574&amp;spn=0.199105,0.343323&amp;z=11&amp;iwloc=A" style="color:#0000FF;text-align:left"><Bold>Cornerstone Kitchen and Baths</Bold> <br /> Address: 840 Ernest W. Barrett Parkway</a></small>',
 	    size: new google.maps.Size(50,50),
 	    position: lat_lng
 	});
