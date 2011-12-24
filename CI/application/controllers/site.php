@@ -57,6 +57,17 @@ class Site extends CI_Controller {
 		
 		$this->load->view('includes/template', $data);
 	}
+    
+    public function gallery()
+    {
+        $data['title'] = "Cornerstone Kitchen and Bath | Products";
+        $data['main_content'] = "gallery";
+        $data['stylesheets'] = array('css/galleriffic-2.css', 'css/style.css');
+        $data['js'] = array('js/jquery.galleriffic.js');
+        
+        $this->load->view('includes/template', $data);
+    }
+    
 }
 
 /* End of file welcome.php */
