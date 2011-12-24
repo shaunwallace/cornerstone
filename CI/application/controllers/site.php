@@ -52,8 +52,8 @@ class Site extends CI_Controller {
 	{
 		$data['title'] = "Cornerstone Kitchen and Bath | Products";
 		$data['main_content'] = "products";
-		$data['stylesheets'] = array('css/products_style.css', 'css/style.css');
-		$data['js'] = null;
+		$data['stylesheets'] = array('css/products_style.css', 'css/style.css', 'css/jquery.fancybox-1.3.4.css');
+		$data['js'] = array('js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js', 'js/fancybox_script.js');
 		
 		$this->load->view('includes/template', $data);
 	}

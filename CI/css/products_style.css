@@ -46,6 +46,87 @@ h2 {
 	*/
 }
 
+
+/******Sprite sheet for small thumbnails of the colors offered for each style*********/
+
+#small_thumbs {
+	position: relative;
+	top: 117px;
+	left: 9px;
+}
+
+#small_thumbs li{
+	margin: 0px
+	padding: 0px;
+	list-style: none;
+	position: absolute; 
+	top: 0;
+}
+
+#small_thumbs li, #small_thumbs a {
+	height: 16px;
+	display: block;
+}
+
+#small_thumbs a:hover {
+
+	-webkit-transition:box-shadow .3s linear;
+	-moz-box-shadow: 0 0 4px 2px #0A6DA8;
+	-webkit-box-shadow: 0 0 4px 2px #0A6DA8;
+	box-shadow: 0 0 4px 2px #0A6DA8;
+}
+
+#cabinet_small_thumb_1 {
+	left: 0px;
+	width: 16px;
+	background-image: url('../images/colored_thumbs.png');
+	background-position: 0px 0px ;
+}
+
+#cabinet_small_thumb_2 {
+	left: 21px;
+	width: 16px;
+	background-image: url('../images/colored_thumbs.png');
+	background-position: -21px 0px;
+}
+
+#cabinet_small_thumb_3 {
+	left: 42px;
+	width: 16px;
+	background-image: url('../images/colored_thumbs.png');
+	background-position: -42px 0px;
+}
+
+#cabinet_small_thumb_4 {
+	left: 63px;
+	width: 16px;
+	background-image: url('../images/colored_thumbs.png');
+	background-position: -63px 0px;
+}
+
+#cabinet_small_thumb_5 {
+	left: 84px;
+	width: 16px;
+	background-image: url('../images/colored_thumbs.png');
+	background-position: -84px 0px;
+}
+
+#cabinet_small_thumb_6 {
+	left: 105px;
+	width: 16px;
+	background-image: url('../images/colored_thumbs.png');
+	background-position: -105px 0px;
+}
+
+#cabinet_small_thumb_7 {
+	left: 126px;
+	width: 16px;
+	background-image: url('../images/colored_thumbs.png');
+	background-position: -126px 0px;
+}
+
+/************end sprite stylesheet****************************/
+
 .cabinet_med_thumb {
 	padding: 15px 20px 20px 9px;
 	float: left;
