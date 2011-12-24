@@ -18,6 +18,15 @@
 			<li>Dovetailed Drawer Box</li>
 			<li>Full Extension Drawer Guides</li>
 		</ul>
+		<ul id="small_thumbs">
+			<li id="cabinet_small_thumb_1"><a href="#" title="Chestnut"></a></li>
+			<li id="cabinet_small_thumb_2"><a href="#" title="Tapioca w/Chocolate Glaze"></a></li>
+			<li id="cabinet_small_thumb_3"><a href="#" title="Vintage Black"></a></li>
+			<li id="cabinet_small_thumb_4"><a href="#" title="Mocha"></a></li>
+			<li id="cabinet_small_thumb_5"><a href="#" title="Mocha"></a></li>
+			<li id="cabinet_small_thumb_6"><a href="#" title="Mocha"></a></li>
+			<li id="cabinet_small_thumb_7"><a href="#" title="Mocha"></a></li>
+		</ul>
 	</div><!-- /charleston -->
 	
 	<div id="metro" class="cabinet_styles">
@@ -40,18 +49,18 @@
 	
 	<div id="kennesaw" class="cabinet_styles">
 		<h2>The Kennesaw</h2>
-		<p class="cabinet_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue urna id dolor vehicula dapibus. Nunc euismod condimentum nunc, id tristique turpis sodales nec. Ut scelerisque viverra ante vel pharetra. Maecenas fermentum lectus sed nunc posuere at consectetur
-leo convallis. Maecenas pretium, urna et feugiat malesuada, leo est lacinia urna, ac facilisis orci lacus ut ipsum. Nam a tortor nisi, a luctus lorem. Suspendisse pharetra nisl a turpis ornare non lobortis urna aliquam. Nunc at malesuada eros.</p>
+		<p class="cabinet_desc">Kennesaw (simple raised panel) in the saddle finish is the door style you asked for! Customers seeking a simplistic yet stylish raised panel will be drawn to this unique door. Upgraded finishes available.</p>
 		
 		<img src="<?php echo base_url();?>images/kennesaw_saddle.jpg" class="cabinet_med_thumb">
 		
 		<h3 class="feature_list_heading">Features</h3>
 		<ul class="feature_list">
-			<li>Feature 1</li>
-			<li>Feature 2</li>
-			<li>Feature 3</li>
-			<li>Feature 4</li>
-			<li>Feature 5</li>
+			<li>Full overlay</li>
+			<li>Slab drawer front</li>
+			<li>Raised MDF center panel</li>
+			<li>All wood drawer box</li>
+			<li>Assembled and flat pack options</li>
+			<li>Full extension under mount cushion close drawer</li>
 		</ul>
 	</div><!-- /kennesaw -->
 	
@@ -59,10 +68,7 @@ leo convallis. Maecenas pretium, urna et feugiat malesuada, leo est lacinia urna
 		<h2>The Any Door Program</h2>
 		<p class="cabinet_desc">Cornerstone Kitchens and Baths has the design and manufacturing capabilities that make us an ideal suppliers for project work for both kitchen and baths. We have the ability to produce cabinets to meet your needs when ordered in bulk. We are currently supporting several of our dealers on multi unit projects or simply helping them fill their current warehouse with cabinets they have created.
 		</p>
-		<p class="cabinet_desc">
-When ordering from us in this manner you will receive special discount for the container purchase. If this is something you're interested in please inquire about the product and pricing. 
-		</p>
-		
+				
 		<img src="<?php echo base_url();?>images/any_door_chestnut.jpg" class="cabinet_med_thumb">
 	</div><!-- /any_door -->
 </div><!--  /content -->
