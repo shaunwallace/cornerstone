@@ -3,7 +3,7 @@
 <div id="content">
          <div id="page">
             <div id="container">
-                <h1><a href="index.html">Galleriffic</a></h1>
+               
                 <h2>Cornerstone Kitchens and Baths Gallery</h2>
 
                 <!-- Start Advanced Gallery Html Containers -->
@@ -30,32 +30,31 @@
                         </li>    
                         <?php 
                         //echo each image 
-                            $directory = BASEPATH . '../images/cabinet_types/' ;                                                                                          
-                                          
-                                          $self = SELF; 
-                                          $apppath = APPPATH;          
-                            // create an array to hold directory list
-                            $results = array();
-
-                            // create a handler for the directory
-                            $handler = opendir($directory);
-
-                            // open directory and walk through the filenames
-                            while ($file = readdir($handler)) {
-
-                              // if file isn't this directory or its parent, add it to the results
-                              if ($file != "." && $file != "..") {
-                                $results[] = $file;
-                              }
-
-                            }
-
-                            // tidy up: close the handler
-                            closedir($handler);
-
-                            // done!
-                           var_dump($results);
-                        ?>                                
+                                  $abs = 'hello'; 
+                               $images = glob(BASEPATH . "../images/cabinet_types/{*.jpg,*.gif,*.png}", GLOB_BRACE);  
+                              $base_url =  base_url(); 
+                              $base_url .= 'images/cabinet_types/'  ;
+                              $large_url = $base_url . 'large/'; 
+                               foreach($images as $image)        :                          
+                                 $image_base = basename($image); 
+                                 $image_url = $base_url  . $image_base;
+                                 $large_image_url = $large_url .   $image_base;
+                                    
+                                 
+                                     ?>
+                         <li>
+                            <div class="caption"> 
+                                <div class="image-title">Image Title</div>
+                                <div class="image-desc"></div>
+                            </div>
+                            <a class="thumb" name="drop" href= "<?php echo $large_image_url; ?>" alt="Charlestons Chesnut">
+                                <img src="<?php echo $image_url; ?>" alt="Charleston Chesnut" width = "75px" height = "75px"/>
+                            </a>
+ 
+                        </li>    
+                                   
+                             
+                        <?php endforeach; ?>                                
                      </ul>
                 </div>
                 <div style="clear: both;"></div>
