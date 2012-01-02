@@ -6,13 +6,17 @@
                 $this->db->insert('mytable', $form_data); 
             }
             
-            public function send_email($email, $message) 
+            public function send_email($data, $message) 
             {
-                $to      = $email;
-                $subject = 'the subject';
-                $message = 'hello';
-                $headers = 'From: jeff.s.kumar@gmail.com' . "\r\n" .
-                    'Reply-To: jeff.s.kumar@gmail.com' . "\r\n" .
+                $to      = "jeff.s.kumar@gmail.com";
+                $message = 'A new contact has been made' . "\r\n" ;
+                $message = 'Name: ' . $data['name'] . "\r\n" ;
+                $message .= 'Email: ' . $data['email'] . "\r\n" ;  
+                $message .= 'Phone: ' . $data['phone'] . "\r\n" ;        
+                $message .= 'Comments: ' . $data['comments'] . "\r\n" ; 
+                $subject = 'A new email lead has been made';
+                $headers = 'From: noreply@cornerstonekitchensandbaths.com' . "\r\n" .
+                    'Reply-To: noreply@cornerstonekitchensandbaths.com' . "\r\n" .
                     'X-Mailer: PHP/' . phpversion();
 
                 $mail_sent = @mail($to, $subject, $message, $headers);

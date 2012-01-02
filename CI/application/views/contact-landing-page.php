@@ -1,19 +1,14 @@
-<div class="banner">
-    <?php echo img('images/banner_image_2.jpg'); ?>
-</div><!-- end banner -->
-
+ <body>
+    
 <div id="content">
 <h1>We will beat any price...for any product.</h1>
-	<aside>
-	
-	    <h2>We look forward to doing business with you</h2>
-		<span>
-		<?php echo ($email); ?>
-		</span>
-		<br>
-		<span>
-		Your email was a <?php echo ($emailsuccess); ?>
-		</span> 
+	<aside>              
+	    Thank You <b><?php echo ($name); ?></b> for contacting us. 
+        <br>
+            We look forward to doing business with you 
+        <br>
+		    A representative will be contacting you shortly.  
+        <br>                
 	</aside>
 	 
 </div><!-- end content -->
