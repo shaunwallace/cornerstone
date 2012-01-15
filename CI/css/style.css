@@ -133,15 +133,18 @@ nav ul li:last-child a {
 	margin: 0px 0 28px;	
 }
 
-.banner h1 {
-	color: white;
-	font-family: 'Smythe', cursive;
-	font-size: 27px !important;
-	padding: 0 0 14px 8px;
-	top: -66px;
-	left: 10px;
-	position: relative;
+      
+.banner h1 {    
+  color: white;         
+  font-family: 'Smythe', cursive;
+  font-size: 27px !important;
+  padding: 0 0 14px 8px;
+  top: -66px;
+  left: 10px;
+  position: relative;
 }
+    
+
 
 /******************Main Content*****************************/
 
