@@ -1,10 +1,11 @@
 <body>
 <div class="banner">
 	<?php echo img('images/banner_image_2.jpg'); ?>
+    <h1>We will beat any price...for any product.</h1> 
 </div><!-- end banner -->
 <div id="content">
 	<div id="content_text_wrapper">
-		<h1>We will beat any price...for any product.</h1>
+ 
 		<h2>Who We Are</h2>
 		<p>Cornerstone is a Company name used by the Ellis Family for over thirty years. Most of those years were spent in the Home building Industry. In 2004 we turned our attention to the cabinet Industry. Cornerstone Kitchens and Baths is our latest creation where we have developed a unique showroom in Kennesaw Ga. to sell Quality Cabinets to contractors and the public. 
 		</p>

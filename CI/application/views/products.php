@@ -1,9 +1,10 @@
 <body>
 <div class="banner">
 	<?php echo img('images/banner_image_2.jpg'); ?>
+    <h1>We will beat any price...for any product.</h1> 
 </div><!-- end banner -->
 <div id="content">
-<h1>We will beat any price...for any product.</h1>
+ 
 	<div id="charleston" class="cabinet_styles">
 		<h2>The Charleston</h2>
 		<p class="cabinet_desc">The Charleston Cabinet Door style, like the town its name is inspired by, has endured the test of time. The timeless look carries with it both elegance and tradition. Like a fine piece of furniture, this cabinet will reinforce the sense of style in your home. With its all-wood raised panel and mitered construction, the traditional door of this cabinet is without compare in its class. The Charleston includes a full-overlay glazed door with a 5-piece drawer face. It is as beautiful as it is strong.</p>
