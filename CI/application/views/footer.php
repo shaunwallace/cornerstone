@@ -3,11 +3,11 @@
 <footer>
 	<nav id="footer_nav">
 		<ul>
-			<li><?php echo anchor('welcome/', 'Home', 'title="home"'); ?></li>
-			<li><?php echo anchor('about/', 'About Us', 'title="about us"'); ?></li>
-			<li><?php echo anchor('products/', 'Products', 'title="products"'); ?></li>
-			<li><?php echo anchor('gallery/', 'Gallery', 'title="gallery"'); ?></li>
-			<li><?php echo anchor('contact/', 'Contact', 'title="contact"'); ?></li>
+			<li><?php echo anchor('site/', 'Home', 'title="home"'); ?></li>
+			<li><?php echo anchor('site/about/', 'About Us', 'title="about us"'); ?></li>
+			<li><?php echo anchor('site/products/', 'Products', 'title="products"'); ?></li>
+			<li><?php echo anchor('site/gallery/', 'Gallery', 'title="gallery"'); ?></li>
+			<li><?php echo anchor('site/contact/', 'Contact', 'title="contact"'); ?></li>
 		</ul>
 	</nav><!-- end nav -->
 	<div id="footer_wrapper">

@@ -1,7 +1,6 @@
  <body>
     
-<div id="content">
-<h1>We will beat any price...for any product.</h1>
+<div id="content">                          
 	<aside>              
 	    Thank You <b><?php echo ($name); ?></b> for contacting us. 
         <br>

@@ -11,7 +11,7 @@ class Form extends CI_Controller {
         $data['title'] = "Cornerstone Kitchen and Bath | Contact Us";
         $data['main_content'] = "contact-landing-page";
         $data['stylesheets'] = array('css/style.css');
-        
+        $data['js'] = null;  
         
         $this->load->model('Form_Model'); 
         

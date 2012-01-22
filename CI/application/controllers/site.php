@@ -24,7 +24,8 @@ class Site extends CI_Controller {
 		$data['title'] = "Cornerstone Kitchen and Bath | Cabinets in Atlanta";
 		$data['main_content'] = "home";
 		$data['stylesheets'] = array('css/style.css', 'css/jquery.fancybox-1.3.4.css');
-		$data['js'] = array('js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js', 'js/fancybox_script.js');
+		$data['js'] = array('js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js', 'js/fancybox_script.js',
+        'http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js');
 		
 		$this->load->view('includes/template', $data);
 	}

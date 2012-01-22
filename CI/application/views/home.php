@@ -1,7 +1,7 @@
 <body>
 <div class="banner">
 	<?php echo img('images/banner_image_2.jpg'); ?>
-    <h1>We will beat any price...for any product.</h1> 
+    <h1>We will beat any price...with our cabinets.</h1> 
 </div><!-- end banner -->
 <div id="content">
 	<div id="content_text_wrapper">

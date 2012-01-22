@@ -8,7 +8,7 @@
             
             public function send_email($data, $message) 
             {
-                $to      = "jeff.s.kumar@gmail.com";
+                $to      = "wade@cornerstonekandb.com" . "," . "ben@cornerstonekandb.com" ;  
                 $message = 'A new contact has been made' . "\r\n" ;
                 $message = 'Name: ' . $data['name'] . "\r\n" ;
                 $message .= 'Email: ' . $data['email'] . "\r\n" ;  
