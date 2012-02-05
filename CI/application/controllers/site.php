@@ -21,7 +21,7 @@ class Site extends CI_Controller {
 	public function index()
 	{
 		
-		$data['title'] = "Cornerstone Kitchen and Bath | Cabinets in Atlanta";
+		$data['title'] = "Cornerstone Kitchens and Baths | Cabinets in Atlanta";
 		$data['main_content'] = "home";
 		$data['stylesheets'] = array('css/style.css', 'css/jquery.fancybox-1.3.4.css');
 		$data['js'] = array('js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js', 'js/fancybox_script.js',
@@ -32,7 +32,7 @@ class Site extends CI_Controller {
 	
 	public function contact()
 	{
-		$data['title'] = "Cornerstone Kitchen and Bath | Contact Us";
+		$data['title'] = "Cornerstone Kitchens and Baths | Contact Us";
 		$data['main_content'] = "contact";
 		$data['stylesheets'] = array('css/contact_style.css', 'css/style.css');
 		$data['js'] = array('js/maps.js');
@@ -42,7 +42,7 @@ class Site extends CI_Controller {
 	
     public function about() 
     {
-        $data['title'] = "Cornerstone Kitchen and Bath | Products";
+        $data['title'] = "Cornerstone Kitchens and Baths | Products";
         $data['main_content'] = "about";
         $data['stylesheets'] = array('css/style.css');
         $data['js'] = array('js/products.js');                                                   
@@ -51,7 +51,7 @@ class Site extends CI_Controller {
     
 	public function products()
 	{
-		$data['title'] = "Cornerstone Kitchen and Bath | Products";
+		$data['title'] = "Cornerstone Kitchens and Baths | Products";
 		$data['main_content'] = "products";
 		$data['stylesheets'] = array('css/products_style.css', 'css/style.css', 'css/jquery.fancybox-1.3.4.css');
 		$data['js'] = array('js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js', 'js/fancybox_script.js');
@@ -61,7 +61,7 @@ class Site extends CI_Controller {
     
     public function gallery()
     {
-        $data['title'] = "Cornerstone Kitchen and Bath | Products";
+        $data['title'] = "Cornerstone Kitchens and Baths | Products";
         $data['main_content'] = "gallery";
         $data['stylesheets'] = array('css/galleriffic-2.css', 'css/style.css');
         $data['js'] = array('js/jquery.galleriffic.js');
